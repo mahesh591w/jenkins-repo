@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label "buil-in"
+    }
 
     stages {
         stage ('Compile Stage') {
