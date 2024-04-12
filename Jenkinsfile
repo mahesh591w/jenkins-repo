@@ -35,7 +35,7 @@ pipeline {
 
             steps {
                 
-                    echo "This is master branch"
+                    echo "This is 24Q2 branch"
                 }
             
         }
